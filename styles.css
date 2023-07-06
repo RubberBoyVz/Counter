@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fca311;
+    color: #14213d;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    gap: 2rem;
+}
+
+/* .counter > * {
+    border: 1px solid black;
+} */
+
+.counter-number {
+    font-weight: bold;
+    color: white;
+    font-size: 15rem;
+}
+
+.div-buttons {
+    display: flex;
+    gap: 2rem;
+}
+
+.btn {
+    border: 3px solid #14213d;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
